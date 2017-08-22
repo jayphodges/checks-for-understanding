@@ -83,11 +83,17 @@ ActiveRecord
 **17. Let's say we have an application with restaurants. There are seven verb + path combinations necessary to provide full CRUD functionality for our restaurant application. List each of the seven combinations, and explain what each is for.**
 
 _get '/restaurants' do_ Allows user to request restaurants page.
+
 _get '/restaurants/new' do_ Directs user to restaurant create page.
+
 _get '/restaurants:id/edit' do_ Allows user to edit restaurant entry.
+
 _get '/restaurants:id' do_ Directs user to specified restaurant.
+
 _post '/restaurants' do_ Pushes the newly created restaurant to the database.
+
 _put '/restaurants' do_ Allow for the updating of restaurants.
+
 _delete '/restaurants:id' do_ Removes the restaurant, specifid by id, from the database.
 
 **18. What's a migration?**
